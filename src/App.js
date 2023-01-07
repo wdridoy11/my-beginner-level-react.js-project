@@ -1,19 +1,14 @@
 import React from 'react'
-import { v4 as uuidv4 } from 'uuid';
-import Card from './card'
-import Data from './data.json';
-import Card1 from './card1'
-import Card2 from './card2'
-import style from './app.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactBootstrap from './components/react_bootstrap/react_bootstrap'
+import RState from './components/Router_State/app'
 
 const app = () => {
    return (
       <div>
-         <Card1 name="Card1" description="This is card 1" />
-         <Card2 name="Card2" description="This is card 2" />
+         <RState />
       </div>
    )
 }
 
-export default app
+export default app;
