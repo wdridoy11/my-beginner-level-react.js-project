@@ -1,7 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactBootstrap from './components/react_bootstrap/react_bootstrap'
-import RState from './components/Router_State/app'
+// import RState from './components/Router_State/app'
+import RState from './components/conditional_randaring/app'
 
 const app = () => {
    return (
