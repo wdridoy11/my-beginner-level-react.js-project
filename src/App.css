@@ -1,5 +1,29 @@
-.headeringStyle {
-   background: pink;
-   padding: 30px;
-   color: red;
+.card {
+   background: #fff;
+   border: 1px solid #ddd;
+   width: 500px;
+   padding: 10px;
+   margin: 10px 0;
+}
+
+.card-title {
+   font-size: 35px;
+
+}
+
+.card-description {
+   font-size: 20px;
+}
+
+.card-date {
+   font-size: 20px;
+}
+
+.card-btn {
+   padding: 10px 20px;
+   border: none;
+   background: orange;
+   color: #fff;
+   font-size: 20px;
+
 }
