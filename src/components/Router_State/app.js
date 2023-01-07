@@ -24,8 +24,8 @@ export default class app extends Component {
       return (
          <div>
             <h1>Count:{count}</h1>
-            <button onClick={this.handleIncrement}>+</button>
-            <button onClick={this.handleDecrement}>-</button>
+            <button onClick={this.handleIncrement} disabled={count === 5 ? true : false} >+</button>
+            <button onClick={this.handleDecrement} disabled={count === 0 ? true : false} >-</button>
          </div>
       )
    }
