@@ -5,7 +5,9 @@ import ReactBootstrap from './components/react_bootstrap/react_bootstrap'
 // import RState from './components/conditional_randaring/app'
 // import RState from './components/event_handling/app'
 // import RState from './components/project/app'
-import RState from './components/form/app'
+// import RState from './components/form/app'
+// import RState from './components/state-lefting/app'
+import RState from './components/project_one/App'
 
 const app = () => {
    return (

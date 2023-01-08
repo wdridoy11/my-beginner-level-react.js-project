@@ -1,0 +1,27 @@
+#about {
+   margin: 100px 0;
+}
+
+.about-area {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   gap: 50px;
+}
+
+.about-content,
+.about-image {
+   width: 50%;
+}
+
+.about-title {
+   font-size: 35px;
+   color: #000;
+   font-weight: 500;
+}
+
+.about-description {
+   font-size: 16px;
+   color: #777;
+   line-height: 1.3em;
+}
