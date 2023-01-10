@@ -1,0 +1,32 @@
+[
+   {
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+      "title": "HTML 5",
+      "description": "I will create your website design. I will using HTML 5"
+   },
+   {
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+      "title": "CSS 3",
+      "description": "I will create your website design. I will using CSS 3"
+   },
+   {
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+      "title": "JavaScript",
+      "description": "I will create your website design. I will using Javascript"
+   },
+   {
+      "icon": "https://cdn-icons-png.flaticon.com/512/875/875209.png",
+      "title": "React",
+      "description": "I will create your website design. I will using React"
+   },
+   {
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
+      "title": "Bootstrap",
+      "description": "I will create your website design. I will using Bootstrap"
+   },
+   {
+      "icon": "https://cdn-icons-png.flaticon.com/512/174/174881.png",
+      "title": "WordPress",
+      "description": "I will create your website design. I will using WordPress"
+   }
+]

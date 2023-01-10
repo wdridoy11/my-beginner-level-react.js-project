@@ -1,0 +1,60 @@
+#contact {}
+
+.contact-area {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.contact {
+   width: 70%;
+}
+
+.contact-from {
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   padding: 50px;
+   border-radius: 20px;
+}
+
+.contact-from h1 {
+   text-align: center;
+   font-size: 40px;
+   font-weight: 600;
+   margin-bottom: 20px;
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 13px 20px;
+   background: #fff;
+   border-radius: 0;
+   border: 1px solid #ddd;
+   margin: 10px 0;
+}
+
+input:focus {
+   outline: none;
+   border: 1px solid #008000;
+}
+
+input[type="submit"] {
+   width: 150px;
+   background: #008000;
+   color: #fff;
+   font-weight: 500;
+   font-size: 18px;
+   transition: 0.5s ease;
+}
+
+input[type="submit"]:hover {
+   background: #000;
+}
+
+@media screen and (max-width: 776px) {
+   .contact {
+      width: 100%;
+   }
+}
