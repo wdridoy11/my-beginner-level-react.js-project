@@ -11,6 +11,6 @@
    margin: 0 auto;
 }
 
-:root {
-   --primary: ##ff5ea3;
+img {
+   max-width: 100%;
 }
