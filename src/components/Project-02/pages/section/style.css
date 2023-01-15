@@ -391,6 +391,7 @@ ul.work-list {
 .counter-area {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
+   gap: 50px;
 }
 
 .counter-details {
@@ -401,4 +402,18 @@ ul.work-list {
    font-size: 120px;
    font-weight: 500;
    color: var(--primary);
+}
+
+/* Counter section style */
+@media screen and (max-width:992px) {
+   .counter-number {
+      font-size: 80px;
+   }
+}
+
+@media screen and (max-width:768px) {
+   .counter-area {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
 }
