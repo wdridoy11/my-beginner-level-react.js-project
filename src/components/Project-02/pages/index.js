@@ -4,6 +4,7 @@ import style from './section/style.css'
 
 import PlatformData from './section/PlatformData.json'
 import ProgressData from './section/ProgressData.json'
+import CounterData from './section/counterData.json'
 
 
 import Banner from './section/banner'
@@ -12,6 +13,7 @@ import Platform from './section/Platform'
 import Work from './section/Work'
 import Progress from './section/Progress'
 import ChooseUs from './section/ChooseUs'
+import Counter from './section/Counter'
 
 const index = () => {
    return (
@@ -59,6 +61,13 @@ const index = () => {
             <div className="container">
                <div className="choose-us-area">
                   <ChooseUs />
+               </div>
+            </div>
+         </section>
+         <section id='counter'>
+            <div className="container">
+               <div className="counter-area">
+                  {CounterData.map((item) => <Counter countNumber={item.countNumber} description={item.description} />)}
                </div>
             </div>
          </section>

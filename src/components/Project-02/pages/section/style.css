@@ -382,3 +382,23 @@ ul.work-list {
       width: 100%;
    }
 }
+
+/* Counter section style */
+#counter {
+   padding: 100px 0;
+}
+
+.counter-area {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.counter-details {
+   text-align: center;
+}
+
+.counter-number {
+   font-size: 120px;
+   font-weight: 500;
+   color: var(--primary);
+}
